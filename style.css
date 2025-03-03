@@ -10,6 +10,8 @@
   --Grey-500: hsl(217, 19%, 35%);
   --Dark-blue: hsl(219, 29%, 14%);
   --Black: hsl(0, 0%, 7%);
+
+  --Background: hsl(300, 5%, 96%);
 }
 
 *,
@@ -25,7 +27,7 @@ html {
 }
 
 body {
-  background-color: var(--Grey-100);
+  background-color: var(--Background);
   font-family: "Barlow Semi Condensed";
   font-size: 1.3rem;
   line-height: 140%;
